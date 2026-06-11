@@ -6,7 +6,7 @@ package mecanica;
 
 /**
  *
- * @author gemzie
+ * @author BRYAN TACURI, INGRID PARDO, CARLOS GUAMAN
  */
 public class Taller_MecanicaFinal {
 
