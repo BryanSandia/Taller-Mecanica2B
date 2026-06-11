@@ -29,18 +29,8 @@ public class Chapa_Pintura extends Reparaciones{
     }
 
     
-    
-    public double CalcularPrecioReparacion(){
-        // Sintaxis: for (TipoDato nombreVariable : nombreLista)
-        double totalReparacion=0;
-        for (Pintura pintura : pinturas) {
-            totalReparacion += pintura.getPrecio();
-        }
-        totalReparacion = totalReparacion * 1.3;
-        return totalReparacion;
-    }
 
-    public void CalcularPrecioPintura(){
+    public void CalcularPrecioReparacion(){
         double totalReparacion=0;
         for (Pintura pintura : pinturas) {
             totalReparacion += pintura.getPrecio();
